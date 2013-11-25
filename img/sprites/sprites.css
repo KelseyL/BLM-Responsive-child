@@ -1,0 +1,28 @@
+.facebook, .instagram, .linkedin, .twitter{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook{
+	background-position: -63px 0;
+	width: 21px;
+	height: 21px;
+}
+
+.instagram{
+	background-position: -42px 0;
+	width: 21px;
+	height: 21px;
+}
+
+.linkedin{
+	background-position: -20px 0;
+	width: 21px;
+	height: 21px;
+}
+
+.twitter{
+	background-position: 0 0;
+	width: 21px;
+	height: 21px;
+}
+

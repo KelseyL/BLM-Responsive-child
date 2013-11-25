@@ -1,0 +1,245 @@
+/*
+Theme Name: BLM-Responsive-child
+Theme URI: http://www.yourdomainname.com/
+Description: Portfolio Theme
+Author: Kelsey Lawrence
+Author URI: http://www.kelseylawrence.com
+Template: BLM-Responsive
+Version: 0.1
+*/
+
+@import url("../BLM-Responsive/style.css");
+
+
+body {
+	font-family: 'Univers LT Std', sans serif;
+}
+
+.portfolio > p, .post > p {
+	font-family: 'Univers LT Std', sans serif;
+	color:#6f696b;
+	font-size: 15px;
+	line-height:1.3em;
+}
+
+/*.post > p {
+	font-family: 'Univers LT Std', sans serif;
+	color:#6f696b;
+	font-size: 16px;
+}*/
+
+header {
+	background-image:url('img/logo.png');
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 5%;
+	height:75px !important;
+}
+
+header img {
+	float:right;
+}
+
+#logo a {
+	display:none;
+}
+
+.social-media {
+	list-style: none;
+	position: absolute;
+	top:20px; right:-2%;	
+}
+.social-media li {
+	float: left;
+	margin: 0 4px;
+	position: relative;
+}
+.social-media a {
+	display: inline-block;
+	height: 21px;
+	width: 21px;
+}
+
+.facebook, .instagram, .linkedin, .twitter{
+	background: url(img/sprites/sprites.png) no-repeat;
+	padding-right:3px;
+}
+
+.facebook{
+	background-position: -63px 0;
+	width: 13px;
+	height: 23px;
+}
+
+.instagram{
+	background-position: -42px 0;
+	width: 10px;
+	height: 23px;
+}
+
+.linkedin{
+	background-position: -20px 0;
+	width: 12px;
+	height: 23px;
+}
+
+.twitter{
+	background-position: 0 0;
+	width: 11px;
+	height: 23px;
+}
+
+#content {
+	float:right;
+	width:75%;
+	margin:-20px 0 0 3%;
+	padding:4px 0 0 0;
+	border-top: 1px solid #6f696b;
+}
+
+.thumb {
+	list-style: none;
+	display:block;
+	float:left;
+	margin-top:20px;
+}
+
+.col-2 {
+	float:right;
+}
+
+h1 {
+	font-family:'Univers LT Std', sans serif; 
+	font-size:20px;
+	color:#6f696b;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom:0;
+}
+
+article h1 {
+	font-size: 15px;
+	margin-bottom:10px;
+}
+
+h2 {
+	margin-top:0;
+}
+
+h2 a {
+	font-family:'Univers LT Std', sans serif; 
+	font-size:15px;
+	color:#6f696b;
+	text-transform: uppercase;
+	margin-top:10px;
+}
+
+h2 a:hover {
+	color:#9f4b1c;
+	text-decoration: none;
+}
+
+.alignnone {
+	float:left;
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+
+.post p {
+	margin-top:-10px;
+	margin-bottom:0;
+}
+
+.entrymeta {
+	margin-top: -20px;
+	border-top: 1px solid #d6d6d6;
+	color:#d7d7d7;
+	display:block;
+}
+
+.entrymeta a {
+	color:#6f696b;
+}
+
+.nocomments {
+	display:none;
+}
+
+.post-navigation {
+	display:none;
+}
+
+#sidebar {
+	width:20%;
+	padding:0;
+	margin:3px 0 0 0;
+	text-align: right;
+	float:left;
+}
+
+#sidebar ul li {
+	padding:0 5px 0 0;
+	font-size: 15px;
+}
+
+#sidebar h4 {
+	font-family: 'Univers LT Std', sans serif;
+	font-size: 14px;
+	border-bottom:none;
+	border-bottom: 1px solid #d6d6d6;
+	color:#d6d6d6;
+	padding-top:7px;
+	padding-right:5px;
+	height:13px;
+	margin-left:5%;
+}
+
+#sidebar a:hover {
+	color:#9f4b1c;
+}
+
+.menu-menu-1-container {
+	text-transform: uppercase;
+}
+
+.current-menu-item a {
+	color:#9f4b1c !important;
+}
+
+footer {
+	border-top: 1px solid #6f696b;
+}
+
+footer p {
+	text-align: right;
+	color:#6f696b;
+}
+
+@media screen and (max-width: 1000px) {
+	#wrap {
+		width: 100%; 	
+	}	
+}
+
+@media screen and (max-width:940px) {
+	header {
+
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#content {
+		float: left; 
+		padding: 2%;
+		width: 96%; 
+	}
+	#sidebar {
+		float: left;  
+		padding: 2%;
+		width: 96%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	
+}
