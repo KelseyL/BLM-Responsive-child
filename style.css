@@ -56,16 +56,17 @@ header img {
 .social-media {
 	list-style: none;
 	position: absolute;
-	top:40px; right:0;	
+	top:20px; right:0;	
 }
 .social-media li {
 	float: left;
 	margin: 0 4px;
 	position: relative;
+	width:10px;
 }
 .social-media a {
 	display: inline-block;
-	height: 15px;
+	height: 21px;
 	width: 15px;
 }
 
@@ -73,6 +74,7 @@ header img {
 	background: url(img/sprites/sprites.png) no-repeat;
 	display:inline-block;
 	position:absolute;
+
 }
 
 .instagram{
