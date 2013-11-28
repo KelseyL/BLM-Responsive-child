@@ -10,6 +10,9 @@
 get_header(); ?>
 
 <div id="main">
+
+	<?php get_sidebar(); ?> 
+
 	
 	<section id="content">
 		
@@ -63,7 +66,6 @@ get_header(); ?>
 		  
 	</section><!-- #content -->
 
-<?php get_sidebar(); ?> 
 
 </div><!-- #main -->
 

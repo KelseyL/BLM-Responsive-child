@@ -1,6 +1,4 @@
 <?php
-
-/* Template Name: Contact */
 /**
  * This template will be used to display page content.
  *
@@ -11,7 +9,8 @@ get_header(); ?>
 
 <div id="main">
 
-	<?php get_template_part( 'inc/alt-sidebar' ); ?>
+	<?php get_sidebar(); ?>
+
 	
 	<section id="content">
 		
@@ -23,14 +22,11 @@ get_header(); ?>
 			
 			<?php the_content(); ?>
 			
-			<?php do_shortcode('[contact-form-7 id="103" title="Contact form 1"]'); ?>
-			
 		</article>
 		
 		<?php endwhile; endif; ?>
 		
 	</section><!-- #content -->
-
 
 
 </div><!-- #main -->

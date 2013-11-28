@@ -8,6 +8,8 @@
 get_header(); ?>
 
 <div id="main">
+	<?php get_sidebar(); ?>
+
 	
 	<section id="content">
 		
@@ -34,7 +36,6 @@ get_header(); ?>
 	
 	</section>
 	
-<?php get_sidebar(); ?>
 
 </div><!-- end of main div -->
 

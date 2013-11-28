@@ -8,6 +8,8 @@
 get_header(); ?>
 
 <div id="main">
+
+	<?php get_template_part( 'inc/alt-sidebar' ); ?>
 	
 	<section id="content">
 		
@@ -34,7 +36,7 @@ get_header(); ?>
 	
 	</section>
 	
-<?php get_template_part( 'inc/alt-sidebar' ); ?>
+
 </div><!-- end of main div -->
 
 <?php get_footer(); ?>
