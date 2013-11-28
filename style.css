@@ -40,14 +40,23 @@ header img {
 	float:right;
 }
 
+#logo {
+	margin-top:-10px;
+}
+
 #logo a {
-	display:none;
+	display:block;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+	height:75px;
+	width:150px;
 }
 
 .social-media {
 	list-style: none;
 	position: absolute;
-	top:20px; right:-2%;	
+	top:40px; right:-2%;	
 }
 .social-media li {
 	float: left;
@@ -56,13 +65,15 @@ header img {
 }
 .social-media a {
 	display: inline-block;
-	height: 21px;
-	width: 21px;
+	height: 15px;
+	width: 15px;
 }
 
 .facebook, .instagram, .linkedin, .twitter{
 	background: url(img/sprites/sprites.png) no-repeat;
 	padding-right:3px;
+	display:inline-block;
+	position:absolute;
 }
 
 .facebook{
@@ -104,8 +115,13 @@ header img {
 	margin-top:20px;
 }
 
+.col-1 {
+	float:left;
+}
+
 .col-2 {
 	float:right;
+	margin-top: 21px;
 }
 
 h1 {
@@ -123,7 +139,7 @@ article h1 {
 }
 
 h2 {
-	margin-top:0;
+	margin-top:10px;
 }
 
 h2 a {
@@ -139,6 +155,43 @@ h2 a:hover {
 	text-decoration: none;
 }
 
+.ngg-imagebrowser .pic {
+	margin-bottom:0;
+}
+
+.ngg-imagebrowser h3 {
+    display:none;
+}
+
+.ngg-imagebrowser-nav {
+    padding: 5px;
+
+}
+
+.ngg-imagebrowser-nav .back a {
+    float: left;
+    color:#977e86;
+    font-size: 10px;
+    font-family:'Univers LT Std', sans serif; 
+}
+
+.ngg-imagebrowser-nav .next a {
+    float: right;
+    color:#977e86;
+    font-size:10px;
+    font-family:'Univers LT Std', sans serif;
+}
+
+.ngg-imagebrowser-nav .counter {
+    display:none;
+}
+
+.exif-data {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+
 .alignnone {
 	float:left;
 	margin-right:10px;
@@ -151,10 +204,11 @@ h2 a:hover {
 }
 
 .entrymeta {
-	margin-top: -20px;
+	margin-top: 10px;
 	border-top: 1px solid #d6d6d6;
 	color:#d7d7d7;
 	display:block;
+	padding:20px;
 }
 
 .entrymeta a {
@@ -205,6 +259,57 @@ h2 a:hover {
 .current-menu-item a {
 	color:#9f4b1c !important;
 }
+
+<!-- ---------CONTACT FORM-------- -->
+.wpcf7 {
+	width:355px;
+}
+
+.wpcf7-form p {
+	font-family: 'Univers LT Std', sans serif;
+	color:#6f696b;
+	font-size: 12px;
+	width:350px;
+	text-align: left;
+	margin-left:385px;
+}
+
+.wpcf7-form input {
+	width:345px;
+	height:25px;
+	padding:0;
+	margin:0;
+	border:1px solid #d6d6d6;
+	margin-bottom:10px;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #977e86;
+	text-transform:none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]:hover {
+	background-color: rgba(151, 126, 134, .9);
+	border:none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]:focus {
+	background-color: rgba(151, 126, 134, .9);
+	border:none;
+	outline:none;
+}
+
+div.wpcf7-validation-errors {
+	border:none;
+	float:right;
+	margin:0;
+	font-size:14px;
+	padding:0;
+	margin-top:-30px;
+}
+
+span.wpcf7-not-valid-tip {
+	border:1px solid #d6d6d6;
 
 footer {
 	border-top: 1px solid #6f696b;

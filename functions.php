@@ -60,4 +60,6 @@ function register_taxonomy_medias() {
 
     register_taxonomy( 'medias', array('portfolio'), $args );
 }
+
+
 ?>

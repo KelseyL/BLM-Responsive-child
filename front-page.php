@@ -28,7 +28,7 @@ get_header(); ?>
 				echo '">';
 
 				echo '<a href="', the_permalink(), '">', the_post_thumbnail(), '</a></li>';
-
+				
 				
 				$col ++;
 		 	endwhile;?>
