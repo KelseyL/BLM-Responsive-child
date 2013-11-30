@@ -10,7 +10,6 @@ Version: 0.1
 
 @import url("../BLM-Responsive/style.css");
 
-
 body {
 	font-family: 'Univers LT Std', sans serif;
 }
@@ -272,11 +271,6 @@ h2 a:hover {
 
 .current-menu-item a {
 	color:#9f4b1c !important;
-}
-
-<!-- ---------CONTACT FORM-------- -->
-.wpcf7 {
-
 }
 
 .wpcf7-form p {
