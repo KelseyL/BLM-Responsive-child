@@ -1,0 +1,430 @@
+/*
+Theme Name: BLM-Responsive-child
+Theme URI: http://www.yourdomainname.com/
+Description: Portfolio Theme
+Author: Kelsey Lawrence
+Author URI: http://www.kelseylawrence.com
+Template: BLM-Responsive
+Version: 0.1
+*/
+
+
+/*
+	I should see this comment... right?
+*/
+
+@import url("../BLM-Responsive/style.css");
+
+@import url("http://fast.fonts.net/lt/1.css?apiType=css&c=d0c6b0cd-cdd7-4787-bba6-dbd32e96ad9f&fontids=723821");
+@font-face{
+font-family:"UniversLTW01-57Condense 723821";
+	src:url("Fonts/723821/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix");
+	src:url("Fonts/723821/aefefc4e-9cb8-4e8e-8599-dda705456734.eot?#iefix") 
+	format("eot"),url("Fonts/723821/1eaf27c0-f4de-4273-9f4c-1b3236ad2f3c.woff") 
+	format("woff"),url("Fonts/723821/9b913baf-b1f0-47d2-8c76-42f59650058f.ttf") 
+	format("truetype"),url("Fonts/723821/0abcce12-2274-4ee7-b6d5-0066b5f5f670.svg#0abcce12-2274-4ee7-	b6d5-0066b5f5f670") 
+	format("svg");
+}
+/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+with any questions regarding Web Fonts:  http://www.linotype.com
+*/
+
+body {
+	font-family:"UniversLTW01-57Condense 723821", sans serif;
+}
+
+.portfolio > p, .post > p {
+	font-family:"UniversLTW01-57Condense 723821", sans serif;
+	color:#6f696b;
+	font-size: 15px;
+	line-height:1.3em;
+}
+
+.page-13 p {
+	font-size:13px;
+	color:red;
+	margin-bottom:0.65em;
+}
+
+header {
+	background-image:url('img/logo.png');
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-left: 5%;
+	height:75px !important;
+}
+
+header img {
+	float:right;
+}
+
+#logo {
+	margin-top:-10px;
+}
+
+#logo a {
+	display:block;
+	overflow:hidden;
+	text-indent:100%;
+	white-space:nowrap;
+	height:75px;
+	width:150px;
+}
+
+.social-media {
+	list-style: none;
+	position: absolute;
+	top:20px;
+	margin-right:4%;
+}
+.social-media li {
+	float: left;
+	margin: 0 4px;
+	position: relative;
+	width:10px;
+}
+.social-media a {
+	display: inline-block;
+	height: 21px;
+	width: 15px;
+}
+
+.instagram, .linkedin, .pinterest, .twitter{
+	background: url(img/sprites/sprites.png) no-repeat;
+	display:inline-block;
+	position:absolute;
+
+}
+
+.instagram{
+	background-position: -20px 0;
+	width: 20px;
+	height: 21px;
+}
+
+.linkedin{
+	background-position: -60px 0;
+	width: 20px;
+	height: 20px;
+}
+
+.pinterest{
+	background-position: -40px 0;
+	width: 20px;
+	height: 21px;
+}
+
+.twitter{
+	background-position: 0 0;
+	width: 20px;
+	height: 21px;
+}
+
+#content {
+	float:right;
+	width:75%;
+	margin:-20px 0 0 3%;
+	padding:4px 0 0 0;
+	border-top: 1px solid #6f696b;
+}
+
+.more-link {
+	color:#977e86;
+	top:10px;
+}
+
+.more-link:hover {
+	color:rgba(151, 126, 134, .6);
+}
+
+.more-link:focus {
+	color:rgba(151, 126, 134, .6);
+}
+
+.thumb {
+	list-style: none;
+	display:block;
+	float:left;
+	margin-top:20px;
+}
+
+.col-1 {
+	float:left;
+}
+
+.col-2 {
+	float:right;
+	margin-top: 21px;
+}
+
+h1 {
+	font-family:'Univers LT Std', sans serif; 
+	font-size:20px;
+	color:#6f696b;
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom:0;
+}
+
+article h1 {
+	font-size: 15px;
+	margin-bottom:10px;
+}
+
+h2 {
+	margin-top:10px;
+}
+
+h2 a {
+	font-family:'Univers LT Std', sans serif; 
+	font-size:15px;
+	color:#6f696b;
+	text-transform: uppercase;
+	margin-top:10px;
+}
+
+h2 a:hover {
+	color:#9f4b1c;
+	text-decoration: none;
+}
+
+.alignnone {
+	float:left;
+	margin-right:10px;
+	margin-bottom: 5px;
+}
+
+.post p {
+	margin-top:-10px;
+	margin-bottom:0;
+}
+
+.entrymeta {
+	margin-top: 10px;
+	border-top: 1px solid #d6d6d6;
+	color:#d7d7d7;
+	display:block;
+	padding:20px;
+}
+
+.entrymeta a {
+	color:#6f696b;
+}
+
+.nocomments {
+	display:none;
+}
+
+.post-navigation {
+	display:none;
+}
+
+#sidebar {
+	width:20%;
+	padding:0;
+	margin:3px 0 0 0;
+	text-align: right;
+	float:left;
+
+}
+
+#sidebar ul li {
+	padding:0 5px 0 0;
+	font-size: 15px;
+}
+
+#sidebar h4 {
+	font-family: 'Univers LT Std', sans serif;
+	font-size: 14px;
+	border-bottom:none;
+	border-bottom: 1px solid #d6d6d6;
+	color:#d6d6d6;
+	padding-top:7px;
+	padding-right:5px;
+	height:13px;
+	margin-left:5%;
+}
+
+#sidebar a:hover {
+	color:#9f4b1c;
+}
+
+.menu-menu-1-container {
+	text-transform: uppercase;
+}
+
+.current-menu-item a {
+	color:#9f4b1c !important;
+}
+
+.wpcf7-form p {
+	font-family: 'Univers LT Std', sans serif;
+	color:#6f696b;
+	font-size: 12px;
+	text-align: left;
+}
+
+.wpcf7-form input {
+	max-width:345px;
+	width:100%;
+	height:25px;
+	padding:0;
+	margin:0;
+	border:1px solid #d6d6d6;
+	padding-left:5px;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	background-color: #977e86;
+	text-transform:none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]:hover {
+	background-color: rgba(151, 126, 134, .9);
+	border:none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"]:focus {
+	background-color: rgba(151, 126, 134, .9);
+	border:none;
+	outline:none;
+}
+
+.wpcf7-textarea {
+	max-width:345px;
+	width:100%;
+}
+
+div.wpcf7-validation-errors {
+	border:none;
+	float:right;
+	margin:0;
+	font-size:14px;
+	padding:0;
+	margin-top:-30px;
+}
+
+span.wpcf7-not-valid-tip {
+	border:1px solid #d6d6d6;
+}
+
+footer {
+	border-top: 1px solid #6f696b;
+}
+
+footer p {
+	text-align: right;
+	color:#6f696b;
+}
+
+@media screen and (max-width: 1000px) {
+	#wrap {
+		width: 100%; 	
+	}
+	#main {
+		margin-top: 30px;
+	}
+	.social-media {
+		margin-top:30px;
+	}
+}
+
+@media screen and (max-width:970px) {
+	.thumb {
+		float:none;
+	}
+	.social-media {
+		margin-right:4%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#content {
+		float:right; 
+		padding: 2%;
+		width: 69%; 
+	}
+	#content p {
+		text-align:left;
+		max-width:355px;
+	}
+	#content p.first {
+		text-align:center;
+	}
+	#sidebar {
+		float: left;  
+		padding: 2%;
+		width: 20%;
+	}
+	.social-media {
+		margin-right:3%;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.menu-toggle {
+		display:none;
+	}
+	.social-media {
+		margin-right:2%;
+	}
+}
+
+
+@media screen and (max-width: 580px) {
+	#content {
+		float:left;
+		padding:2%;
+		width:96%;
+		text-align: center;
+		margin-left:0;
+	}
+	#content p {
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:10px;
+	}
+	#sidebar {
+		float:left;
+		padding:2%;
+		width:96%;
+		margin:0 auto;
+		text-align: center;
+	}
+	#sidebar ul li {
+		display:inline-block;
+		padding-right:5.5%;
+	}
+	aside {
+		padding:0;
+		margin-top:-10px;
+	}
+	#main {
+		margin-top: 10px;
+	}
+	.menu {
+		margin-bottom:10px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#content {
+		margin-left:3%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	#content {
+		margin-left:-2%;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.social-media {
+		margin-right:0;
+	}
+}
