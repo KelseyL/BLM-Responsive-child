@@ -8,7 +8,7 @@
 ?>
 <section id="sidebar">
 	
-		<?php wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 3 ) );
+		<?php //wp_nav_menu( array( 'theme_location' => 'primary', 'depth' => 3 ) );
 		?>	
 
 		<?php 
